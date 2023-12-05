@@ -80,7 +80,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 0 130px 0 78px;
+  padding: 0 132px 0 78px;
 }
 .header__logo {
   flex: 0 0 auto;
@@ -95,7 +95,7 @@ ul {
 .header__nav {
   display: flex;
   align-items: center;
-  gap: 78px;
+  gap: 77px;
 }
 .header__nav-link {
   color: #686565;
@@ -165,8 +165,8 @@ ul {
 }
 
 .about {
-  padding: 221px 0 518px;
-  background: url(../assets/about-bg.png) top right -26px no-repeat;
+  padding: 215px 0 518px;
+  background: url(../assets/about-bg.png) top right 42px no-repeat;
 }
 .about .container {
   padding: 0 46px;
@@ -182,12 +182,12 @@ ul {
 }
 .about__description {
   max-width: 415px;
-  margin: 0 0 26px;
+  margin: 0 0 40px;
   color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 36px;
 }
 .about__buttons {
   padding-left: 31px;
@@ -213,6 +213,7 @@ ul {
 }
 .projects__description {
   margin: 0 0 46px;
+  margin-left: 50px;
   color: #000;
   font-size: 24px;
   font-style: normal;
@@ -224,7 +225,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 46px 80px;
+  gap: 50px 80px;
 }
 .projects__list-figure {
   flex: 0 1 246px;
@@ -238,13 +239,14 @@ ul {
 
 .contacts {
   margin: 0 0 208px;
-  padding: 67px 0 190px;
+  margin-left: 20px;
+  padding: 63px 0 190px;
   background-color: rgba(67, 186, 253, 0.06);
 }
 .contacts .container {
-  padding: 0 66px;
+  padding: 0 53px;
   background-image: url(../assets/contacts-bg.png);
-  background-position: top 122px right;
+  background-position: top 122px right 12px;
   background-repeat: no-repeat;
 }
 .contacts__title {
@@ -296,6 +298,7 @@ ul {
   border: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 .contacts__form-button {
   padding: 28px 94px 18px 102px;

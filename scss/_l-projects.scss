@@ -20,6 +20,7 @@
 
   &__description {
     margin: 0 0 46px;
+    margin-left: 50px;
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 46px 80px;
+    gap: 50px 80px;
 
     &-figure {
       flex: 0 1 246px;

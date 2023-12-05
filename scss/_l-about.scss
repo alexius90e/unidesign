@@ -1,6 +1,6 @@
 .about {
-  padding: 221px 0 518px;
-  background: url(../assets/about-bg.png) top right -26px no-repeat;
+  padding: 215px 0 518px;
+  background: url(../assets/about-bg.png) top right 42px no-repeat;
 
   & .container {
     padding: 0 46px;
@@ -18,12 +18,12 @@
 
   &__description {
     max-width: 415px;
-    margin: 0 0 26px;
+    margin: 0 0 40px;
     color: #000;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 36px;
   }
 
   &__buttons {
