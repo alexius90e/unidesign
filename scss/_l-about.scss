@@ -1,1 +1,32 @@
-.about {}
+.about {
+  padding: 221px 0 518px;
+  background: url(../assets/about-bg.png) top right -26px no-repeat;
+
+  & .container {
+    padding: 0 46px;
+  }
+
+  &__title {
+    margin: 0 0 14px;
+    color: #2000e7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.8px;
+  }
+
+  &__description {
+    max-width: 415px;
+    margin: 0 0 26px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__buttons {
+    padding-left: 31px;
+  }
+}

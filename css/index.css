@@ -164,3 +164,32 @@ ul {
   background: url(<path-to-image>), lightgray 50%/cover no-repeat;
   box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.5);
 }
+
+.about {
+  padding: 221px 0 518px;
+  background: url(../assets/about-bg.png) top right -26px no-repeat;
+}
+.about .container {
+  padding: 0 46px;
+}
+.about__title {
+  margin: 0 0 14px;
+  color: #2000e7;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 16.8px;
+}
+.about__description {
+  max-width: 415px;
+  margin: 0 0 26px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about__buttons {
+  padding-left: 31px;
+}
