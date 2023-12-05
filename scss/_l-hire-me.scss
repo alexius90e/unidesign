@@ -1,1 +1,68 @@
-.hire-me {}
+.hire-me {
+  padding: 100px 0 46px;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 130px 0 78px;
+  }
+
+  &__info {
+    flex: 0 1 616px;
+    padding-top: 22px;
+  }
+
+  &__welcom {
+    margin: 0 0 5px;
+    color: #2000e7;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__title {
+    max-width: 447px;
+    margin: 0 0 21px;
+    color: #2000e7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    & span {
+      color: #f2bd00;
+    }
+  }
+
+  &__description {
+    margin: 0 0 75px;
+    color: #383838;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 45px;
+  }
+
+  &__figure {
+    flex: 0 1 564px;
+
+    & img {
+      max-width: 100%;
+      width: 564px;
+      height: auto;
+      border-radius: 0px 0px 0px 191px;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.5);
+    }
+  }
+}

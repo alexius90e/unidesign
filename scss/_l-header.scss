@@ -4,8 +4,9 @@
   & .container {
     display: flex;
     align-items: center;
-    gap: 241px;
-    padding: 0 78px;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 130px 0 78px;
   }
 
   &__logo {
