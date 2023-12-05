@@ -1,0 +1,36 @@
+.header {
+  padding: 190px 0 79px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+    gap: 241px;
+    padding: 0 78px;
+  }
+
+  &__logo {
+    flex: 0 0 auto;
+
+    &-link {
+      color: #0e0578;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 78px;
+
+    &-link {
+      color: #686565;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
