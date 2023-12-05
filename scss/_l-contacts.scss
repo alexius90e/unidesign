@@ -1,3 +1,93 @@
 .contacts {
-  
+  margin: 0 0 208px;
+  padding: 67px 0 190px;
+  background-color: rgba(67, 186, 253, 0.06);
+
+  & .container {
+    padding: 0 66px;
+    background-image: url(../assets/contacts-bg.png);
+    background-position: top 122px right;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    margin: 0 0 10px;
+    color: #220be8;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 17.28px;
+    text-align: center;
+  }
+
+  &__description {
+    margin: 0 0 159px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  &__form {
+    max-width: 653px;
+
+    &-input,
+    &-textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      color: #000;
+      font-family: "Poppins";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border: none;
+      background: #fff;
+      box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    &-input {
+      margin: 0 0 81px;
+      padding: 30px 55px 16px;
+    }
+
+    &-textarea {
+      min-height: 265px;
+      margin: 0 0 49px;
+      padding: 29px 48px;
+    }
+
+    &-buttons {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-button {
+      padding: 28px 94px 18px 102px;
+      color: #000;
+      font-family: "Poppins";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background: #fff;
+      border: none;
+      box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+      transition: $baseTransition;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 11px 19px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+
+      &:active {
+        box-shadow: 9px 15px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
 }

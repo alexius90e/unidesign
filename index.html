@@ -16,10 +16,10 @@
         </div>
 
         <nav class="header__nav">
-          <a class="header__nav-link" href="#hireMe">About Me</a>
-          <a class="header__nav-link" href="#about">Projects</a>
-          <a class="header__nav-link" href="#projects">Contacts</a>
-          <a class="header__nav-link" href="#contacts">Hire Me</a>
+          <a class="header__nav-link" href="#about">About Me</a>
+          <a class="header__nav-link" href="#projects">Projects</a>
+          <a class="header__nav-link" href="#contacts">Contacts</a>
+          <a class="header__nav-link" href="#hireMe">Hire Me</a>
         </nav>
       </div>
     </header>
@@ -106,7 +106,40 @@
       </section>
 
       <section class="contacts" id="contacts">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="contacts__title">Contact Me</h2>
+
+          <p class="contacts__description">Lorem Ipsum is simply dummy text of the printing</p>
+
+          <form class="contacts__form">
+            <input
+              class="contacts__form-input"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+
+            <input
+              class="contacts__form-input"
+              name="password"
+              type="password"
+              placeholder="Password"
+              required
+            />
+
+            <textarea
+              class="contacts__form-textarea"
+              name="message"
+              placeholder="Message..."
+              required
+            ></textarea>
+
+            <fieldset class="contacts__form-buttons">
+              <button class="contacts__form-button">Contact</button>
+            </fieldset>
+          </form>
+        </div>
       </section>
     </main>
 

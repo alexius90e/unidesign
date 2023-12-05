@@ -161,7 +161,6 @@ ul {
   width: 564px;
   height: auto;
   border-radius: 0px 0px 0px 191px;
-  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
   box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.5);
 }
 
@@ -235,4 +234,86 @@ ul {
   height: 180px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+.contacts {
+  margin: 0 0 208px;
+  padding: 67px 0 190px;
+  background-color: rgba(67, 186, 253, 0.06);
+}
+.contacts .container {
+  padding: 0 66px;
+  background-image: url(../assets/contacts-bg.png);
+  background-position: top 122px right;
+  background-repeat: no-repeat;
+}
+.contacts__title {
+  margin: 0 0 10px;
+  color: #220be8;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 17.28px;
+  text-align: center;
+}
+.contacts__description {
+  margin: 0 0 159px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.contacts__form {
+  max-width: 653px;
+}
+.contacts__form-input, .contacts__form-textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background: #fff;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contacts__form-input {
+  margin: 0 0 81px;
+  padding: 30px 55px 16px;
+}
+.contacts__form-textarea {
+  min-height: 265px;
+  margin: 0 0 49px;
+  padding: 29px 48px;
+}
+.contacts__form-buttons {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.contacts__form-button {
+  padding: 28px 94px 18px 102px;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #fff;
+  border: none;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out 0.15s;
+  cursor: pointer;
+}
+.contacts__form-button:hover {
+  box-shadow: 11px 19px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contacts__form-button:active {
+  box-shadow: 9px 15px 4px 0px rgba(0, 0, 0, 0.25);
 }
