@@ -1,3 +1,156 @@
 .footer {
+  padding: 132px 0 37px;
+  background-color: rgba(255, 214, 150, 0.2);
 
+  & .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 173px 96px;
+    padding: 0 46px;
+  }
+
+  &__main {
+    flex: 0 0 386px;
+    padding-left: 25px;
+  }
+
+  &__logo {
+    margin: 0 0 50px;
+
+    &-link {
+      display: inline-block;
+      color: #0e0578;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 16.8px;
+    }
+  }
+
+  &__form {
+    position: relative;
+    left: -50px;
+
+    &-input,
+    &-button {
+      display: block;
+      box-sizing: border-box;
+      color: #fff;
+      font-family: "Jost";
+      font-size: 31px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+    }
+
+    &-input {
+      max-width: 386px;
+      padding: 24px 33px 28px;
+      border-radius: 30px;
+      background: #000;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    &-button {
+      position: absolute;
+      top: 0;
+      right: -40px;
+      bottom: 0;
+      z-index: 5;
+      padding: 24px 16px 28px;
+      border-radius: 30px;
+      background: #f965fc;
+    }
+  }
+
+  &__menu {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+
+    &-item {
+      flex: 1 1 30%;
+      max-width: 280px;
+
+      &-title {
+        margin: 0 0 36px;
+        color: #000;
+        font-family: "Jost";
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+    &-item {
+      color: #000;
+      font-family: "Jost";
+      font-size: 31px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__copirights {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    &-text {
+      color: #000;
+      font-family: "Jost";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    margin-right: -20px;
+
+    &-link {
+      display: inline-block;
+      height: 72px;
+      width: 72px;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &_youtube {
+        background-image: url(../assets/youtube.svg);
+      }
+
+      &_instagram {
+        background-image: url(../assets/Instagram.svg);
+      }
+
+      &_facebook {
+        background-image: url(../assets/facebook.svg);
+      }
+
+      &_linkedin {
+        background-image: url(../assets/linkedin.svg);
+      }
+    }
+  }
 }

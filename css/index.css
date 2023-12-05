@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
 html {
   color: #383838;
   font-size: 1rem;
@@ -319,4 +320,141 @@ ul {
 }
 .contacts__form-button:active {
   box-shadow: 9px 15px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  padding: 132px 0 37px;
+  background-color: rgba(255, 214, 150, 0.2);
+}
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 173px 96px;
+  padding: 0 46px;
+}
+.footer__main {
+  flex: 0 0 386px;
+  padding-left: 25px;
+}
+.footer__logo {
+  margin: 0 0 50px;
+}
+.footer__logo-link {
+  display: inline-block;
+  color: #0e0578;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 16.8px;
+}
+.footer__form {
+  position: relative;
+  left: -50px;
+}
+.footer__form-input, .footer__form-button {
+  display: block;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Jost";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+.footer__form-input {
+  max-width: 386px;
+  padding: 24px 33px 28px;
+  border-radius: 30px;
+  background: #000;
+}
+.footer__form-input::-ms-input-placeholder {
+  color: #fff;
+}
+.footer__form-input::placeholder {
+  color: #fff;
+}
+.footer__form-button {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  bottom: 0;
+  z-index: 5;
+  padding: 24px 16px 28px;
+  border-radius: 30px;
+  background: #f965fc;
+}
+.footer__menu {
+  flex: 1 1 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.footer__menu-item {
+  flex: 1 1 30%;
+  max-width: 280px;
+}
+.footer__menu-item-title {
+  margin: 0 0 36px;
+  color: #000;
+  font-family: "Jost";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.footer__nav-item {
+  color: #000;
+  font-family: "Jost";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__copirights {
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer__copirights-text {
+  color: #000;
+  font-family: "Jost";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  margin-right: -20px;
+}
+.footer__social-link {
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer__social-link_youtube {
+  background-image: url(../assets/youtube.svg);
+}
+.footer__social-link_instagram {
+  background-image: url(../assets/Instagram.svg);
+}
+.footer__social-link_facebook {
+  background-image: url(../assets/facebook.svg);
+}
+.footer__social-link_linkedin {
+  background-image: url(../assets/linkedin.svg);
 }
